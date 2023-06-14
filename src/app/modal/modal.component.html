@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>UserForm</h1>
+<div mat-dialog-content>
+    <div class="mt-5 py-3" >
+        <div>First Name: {{data.fName}}</div>
+        <div>Last Name: {{data.lName}}</div>
+        <div>Email: {{ data.email}}</div>
+        <div>Address: {{ data.address}}</div>
+        <div>City: {{ data.city }}</div>
+        <div>Zip Code: {{ data.zipcode }}</div>
+        <div>Phone Number: {{ data.phoneNumber }}</div>
+        <div>State: {{ data.state }}</div>
+        <div>Cereal: {{ data.cereal }}</div>
+      </div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Close</button>
+</div>
